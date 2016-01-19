@@ -3,8 +3,8 @@ from django.template import RequestContext
 from django.core.urlresolvers import reverse
 from django.shortcuts import render_to_response
 
-from forms import UploadFileForm
-from models import UploadFile
+from .forms import UploadFileForm
+from .models import UploadFile
 
 
 def home(request):
